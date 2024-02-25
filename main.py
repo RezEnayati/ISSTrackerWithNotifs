@@ -7,9 +7,9 @@ MY_LAT = 34.256290
 MY_LNG = -118.573980
 ENDPOINT_URL = "https://api.sunrise-sunset.org/json"
 
-EMAIL = 'rezaenayatitest@gmail.com'
-PASSWORD = "qddz cmwc nfjh ksiw"
-EMAIL2 = 'rezareza4302@gmail.com'
+EMAIL = 'EMAIL'
+PASSWORD = "Password"
+EMAIL2 = 'EMAIL'
 
 def is_iss_near():
     response = requests.get(url='http://api.open-notify.org/iss-now.json')
